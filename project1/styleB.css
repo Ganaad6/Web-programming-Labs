@@ -1,0 +1,28 @@
+.main 
+{
+    display: flex;
+    flex-wrap: pre-wrap;
+    gap: 10px;
+}
+.main div 
+{
+     width: 100px;
+    height: 150px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    padding-left: 10px; 
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    min-width: 100px;
+    min-height: 150px;
+}
+.main div:hover 
+{
+    background-color: yellow;
+}
+#F 
+{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
